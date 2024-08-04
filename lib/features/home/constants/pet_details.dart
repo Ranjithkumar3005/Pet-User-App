@@ -1,19 +1,19 @@
 final List<Map<String, String>> pets = [
   {
-    'name': 'Gary',
-    'imageUrl':
-        'https://thumbs.dreamstime.com/b/beautiful-happy-reddish-havanese-puppy-dog-sitting-frontal-looking-camera-isolated-white-background-46868560.jpg?w=768',
-    'description': 'Yorkshire Terrier',
-    'age': '3 years',
-    'location': 'New York', // Add location
-  },
-  {
     'name': 'Max',
     'imageUrl':
         'https://image.petmd.com/files/styles/978x550/public/2023-09/how-smart-are-cats.jpg', // Replace with actual URL
     'description': 'Beagle',
     'age': '5 years',
     'location': 'Los Angeles', // Add location
+  },
+  {
+    'name': 'Gary',
+    'imageUrl':
+        'https://thumbs.dreamstime.com/b/beautiful-happy-reddish-havanese-puppy-dog-sitting-frontal-looking-camera-isolated-white-background-46868560.jpg?w=768',
+    'description': 'Yorkshire Terrier',
+    'age': '3 years',
+    'location': 'New York', // Add location
   },
   {
     'name': 'Bella',

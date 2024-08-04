@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:user_app/common/constants/sizes.dart';
-import 'package:user_app/common/widgets/maximum_card.dart';
-import 'package:user_app/common/widgets/minimum_card.dart';
+import 'package:user_app/features/home/view/widgets/maximum_card.dart';
+import 'package:user_app/features/home/view/widgets/minimum_card.dart';
 import 'package:user_app/features/home/constants/pet_details.dart';
 import 'package:user_app/features/home/constants/shelter_details.dart';
 
@@ -12,21 +12,45 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
+        backgroundColor: Colors.deepPurple, // Set background color
+        elevation: 4, // Add shadow effect
+        title: Text(
           "Ranjithkumar S",
           style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: Sizes.fontSizeXLg + 2,
+            fontWeight: FontWeight.w600, // Semi-bold font weight
+            fontSize: 24, // Increase font size
+            color: Colors.white, // White text color for better contrast
           ),
+        ),
+        leading: IconButton(
+          icon: const Icon(
+            Icons.menu, // Add a leading icon
+            size: 24,
+            color: Colors.white,
+          ),
+          onPressed: () {
+            // Handle menu icon press
+          },
         ),
         actions: [
           IconButton(
             icon: const Icon(
               Icons.notifications_none_outlined,
-              size: Sizes.iconMd,
+              size: 24, // Increase size for better visibility
+              color: Colors.white,
             ),
             onPressed: () {
-              // handle the press
+              // Handle notification icon press
+            },
+          ),
+          IconButton(
+            icon: const Icon(
+              Icons.search,
+              size: 24, // Increase size
+              color: Colors.white,
+            ),
+            onPressed: () {
+              // Handle search icon press
             },
           ),
         ],

@@ -24,7 +24,7 @@ class MaximumCard extends StatelessWidget {
       ),
       elevation: 4,
       child: Container(
-        height: 300,
+        height: 270,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
