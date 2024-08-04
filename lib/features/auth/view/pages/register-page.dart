@@ -4,8 +4,6 @@ import 'package:user_app/core/constants/sizes.dart';
 import 'package:user_app/features/auth/view/pages/login-page.dart';
 import 'package:user_app/features/auth/view/widgets/back-button.dart';
 import 'package:user_app/features/auth/view/widgets/register-form.dart';
-import 'package:user_app/routes/app_route_config.dart';
-import 'package:user_app/routes/app_route_constants.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
